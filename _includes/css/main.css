@@ -601,7 +601,7 @@ footer .footer-below {
     }
 
     #about .about-item p {
-        font-size: 0.9em; /* Reduce ligeramente el tamaño del texto en móviles */
+        font-size: 1.2em; /* Reduce ligeramente el tamaño del texto en móviles */
     }
 }
 
