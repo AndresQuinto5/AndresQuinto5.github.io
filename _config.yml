@@ -1,11 +1,11 @@
 # Site settings
 title: Portfolio
 email: aeqv226@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "BSc Computer Science - Data Science | Analytics - Web developer"
-meta_author: LastName FirstName
+url: https://github.com/AndresQuinto5/andresquinto5.github.io
+description: "BSc Computer Science graduate specializing in Data Science, Analytics, and Web Development. Passionate about turning data into actionable insights and creating innovative web solutions."
+keywords: "data science, analytics, web development, computer science, portfolio"
+skills: "BSc Computer Science - Data Science | Analytics - Web Developer"
+meta_author: Quinto Andres
 
 # Google webmaster tools
 google_verify:
@@ -14,7 +14,7 @@ google_verify:
 bing_verify:
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
+# - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -32,33 +32,21 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Andres Quinto
   location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/AndresQuinto5
-  - title: Linkedin
+  - title: linkedin
     url: https://www.linkedin.com/in/aeqv226/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - line: Guatemala City
+  - line: Guatemala
 
 # Build settings
 markdown: kramdown
