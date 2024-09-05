@@ -35,6 +35,13 @@
                 <strong>{{ post.methodology }}</strong>
               </li>
               {% endif %}
+              {% if post.github %}
+              <li>
+                <a href="{{ post.github }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> GitHub Repository
+                </a>
+              </li>
+              {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
