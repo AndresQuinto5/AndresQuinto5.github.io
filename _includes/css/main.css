@@ -237,9 +237,16 @@ section.success {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .github-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .github-link:hover {
+    color: #{{ site.color.primary }};
 }
 
 #portfolio * {
