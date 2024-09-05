@@ -490,13 +490,18 @@ footer .footer-below {
     height: 250px; /* This should be the same as the width */
 }
 
-.btn-outline-secondary {
-  color: #2c3e50;
-  border-color: #2c3e50;
-  margin-top: 10px;
+.portfolio-modal .modal-content .item-details li {
+  margin-bottom: 15px;
 }
 
-.btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #2c3e50;
+.portfolio-modal .modal-content .item-details li strong {
+  display: block;
+}
+
+.portfolio-modal .modal-content .item-details li a.btn {
+  margin-top: 5px;
+}
+
+.portfolio-modal .modal-content .btn {
+  margin: 5px;
 }
