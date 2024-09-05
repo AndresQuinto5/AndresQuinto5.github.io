@@ -1,11 +1,26 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+date: 2020-01-18
+img: cabin.png
+alt: Clasificación de los orígenes de un coágulo de sangre en un accidente cerebrovascular
+project-date: January 2020
+title: Clasificación de los orígenes de un coágulo de sangre en un accidente cerebrovascular Visión Artificial
+technologies: Python, TensorFlow, Pandas, NumPy, Matplotlib, Seaborn, Pillow, Sklearn
+methodology: Deep Learning, Convolutional Neural Networks (CNN), Image Processing
+category: Data Science, Machine Learning
+description: /
+    Este proyecto aborda la clasificación de los orígenes de los coágulos de sangre en accidentes cerebrovasculares isquémicos agudos mediante el uso de técnicas de Visión Artificial. El objetivo fue desarrollar un modelo de inteligencia artificial capaz de identificar los dos principales subtipos de etiología del ictus aterosclerosis cardíaca y aterosclerosis de arteria grande, a partir de imágenes de patologías digitales en formato .TIF.
+
+    El proceso comenzó con la carga, análisis y manipulación de grandes volúmenes de imágenes médicas utilizando librerías de Python como Pandas, NumPy y Pillow. Posteriormente, se implementaron técnicas de optimización y compresión de archivos para facilitar el procesamiento masivo de las imágenes.
+
+    Se emplearon redes neuronales convolucionales (CNN) para desarrollar el modelo de clasificación. Este enfoque permitió una extracción eficaz de características relevantes de las imágenes y su posterior clasificación con un alto nivel de precisión. Para ello, se utilizó TensorFlow como framework de machine learning y Scikit-learn (Sklearn) para la evaluación de métricas de rendimiento.
+
+    Principales logros
+
+    Desarrollo de un algoritmo para la carga y procesamiento eficiente de imágenes en formato .TIF.
+    Implementación de una red neuronal convolucional que logró clasificar con éxito imágenes de coágulos en dos categorías de origen.
+    Generación de un sistema capaz de recibir imágenes de usuario para su clasificación con un alto grado de confianza, aportando a la toma de decisiones médicas en el tratamiento de accidentes cerebrovasculares.
+
+github: https://github.com/JmDeleon2000/proyecto-2
 ---
