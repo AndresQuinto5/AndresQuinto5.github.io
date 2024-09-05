@@ -5,7 +5,8 @@ date: 2020-01-18
 img: cabin.png
 alt: image-alt
 project-date: January 2020
-client: The Client
+technologies: Python, TensorFlow, Pandas, Scikit-learn
+methodology: Machine Learning, Supervised Learning, Predictive Analytics
 category: Data Science
 title: Predicción de Edad y Grupo de Clasificación de Mujeres Casadas en Guatemala (2011-2019)
 description: |
