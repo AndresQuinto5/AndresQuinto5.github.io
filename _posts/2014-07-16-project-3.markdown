@@ -1,11 +1,15 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 2024-05-15
 img: circus.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: May 2024
+title: Predicción de Deserción Estudiantil Universitaria utilizando Técnicas de Aprendizaje Automático
+technologies: Python, Pandas, Scikit-learn, TensorFlow, K-means, SMOTE
+methodology: Análisis Exploratorio de Datos (EDA), Ingeniería de Características, Preprocesamiento de Datos, Modelado Predictivo, Evaluación de Modelos
+category: Machine Learning, Data Science
+description: |
+    El objetivo de este proyecto fue desarrollar un sistema de predicción de deserción estudiantil utilizando técnicas de aprendizaje automático. Se aplicaron modelos de clasificación como Redes Neuronales Artificiales (ANN), Máquinas de Vectores de Soporte (SVM), Árboles de Decisión, Gradient Boosting Machine (GBM) y Regresión Logística para predecir la probabilidad de graduación de los estudiantes. Durante el análisis se exploraron datos demográficos, académicos y socioeconómicos de 3630 estudiantes, identificando patrones y factores clave que influyen en la deserción. Se aplicó SMOTE para balancear las clases, y se evaluaron los modelos con métricas como exactitud, precisión, F1-score y AUC-ROC. El modelo de Regresión Logística con Feature Engineering mostró el mejor rendimiento, con una exactitud de 91.46%.
+github: https://github.com/usuario/repositorio
 ---

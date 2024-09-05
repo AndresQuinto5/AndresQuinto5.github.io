@@ -1,8 +1,9 @@
 ---
 layout: default
 modal-id: 2
-date: 2020-01-18
-img: cabin.png
+date: 2022-11-18
+project-date: November 2022
+img: cake.png
 alt: Clasificación de los orígenes de un coágulo de sangre en un accidente cerebrovascular
 project-date: January 2020
 title: Clasificación de los orígenes de un coágulo de sangre en un accidente cerebrovascular Visión Artificial
