@@ -20,9 +20,9 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.technologies %}
-              <li>Technologies:
-                <strong>{{ post.technologies }}</strong>
+              {% if post.client %}
+              <li>Client:
+                <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
@@ -30,17 +30,12 @@
                 <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.methodology %}
-              <li>Methodology:
-                <strong>{{ post.methodology }}</strong>
+              {% if post.category %}
+              <li>Service:
+                <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
             </ul>
-            {% if post.github %}
-            <a href="{{ post.github }}" class="btn btn-lg btn-outline" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github"></i> View on GitHub
-            </a>
-            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

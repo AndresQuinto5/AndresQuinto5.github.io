@@ -237,16 +237,9 @@ section.success {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content .github-link {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content .github-link:hover {
-    color: #{{ site.color.primary }};
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
 }
 
 #portfolio * {
@@ -488,26 +481,4 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
-}
-
-.circular-image {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 250px;  /* Adjust this value as needed */
-    height: 250px; /* This should be the same as the width */
-}
-
-.btn-outline-secondary {
-    color: #{{ site.color.secondary }};
-    border-color: #{{ site.color.secondary }};
-    background-color: transparent;
-}
-
-.btn-outline-secondary:hover,
-.btn-outline-secondary:focus,
-.btn-outline-secondary:active,
-.btn-outline-secondary.active {
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
-    border-color: #{{ site.color.secondary }};
 }
