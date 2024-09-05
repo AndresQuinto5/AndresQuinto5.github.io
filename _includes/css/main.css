@@ -482,3 +482,18 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.btn-social.btn-outline {
+    color: #fff;
+    border: solid 2px #fff;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn-social.btn-outline:hover,
+.btn-social.btn-outline:focus,
+.btn-social.btn-outline:active {
+    color: #{{ site.color.primary }};
+    background: #fff;
+}
