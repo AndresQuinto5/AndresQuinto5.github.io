@@ -10,7 +10,7 @@ title: Clasificación de los orígenes de un coágulo de sangre en un accidente 
 technologies: Python, TensorFlow, Pandas, NumPy, Matplotlib, Seaborn, Pillow, Sklearn
 methodology: Deep Learning, Convolutional Neural Networks (CNN), Image Processing
 category: Data Science, Machine Learning
-description: /
+description: |
     Este proyecto aborda la clasificación de los orígenes de los coágulos de sangre en accidentes cerebrovasculares isquémicos agudos mediante el uso de técnicas de Visión Artificial. El objetivo fue desarrollar un modelo de inteligencia artificial capaz de identificar los dos principales subtipos de etiología del ictus aterosclerosis cardíaca y aterosclerosis de arteria grande, a partir de imágenes de patologías digitales en formato .TIF.
 
     El proceso comenzó con la carga, análisis y manipulación de grandes volúmenes de imágenes médicas utilizando librerías de Python como Pandas, NumPy y Pillow. Posteriormente, se implementaron técnicas de optimización y compresión de archivos para facilitar el procesamiento masivo de las imágenes.
