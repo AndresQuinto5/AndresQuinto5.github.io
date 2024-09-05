@@ -482,3 +482,10 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.circular-image {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;  /* Adjust this value as needed */
+    height: 250px; /* This should be the same as the width */
+}
