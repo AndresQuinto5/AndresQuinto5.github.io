@@ -3,9 +3,9 @@ layout: default
 modal-id: 1
 date: 2022-05-23
 project-date: May 2022
-img: cabin.png
+img: Project1.png
 alt: image-alt
-project-date: January 2020
+project-date: May 2022
 technologies: Python, TensorFlow, Pandas, Scikit-learn
 methodology: Machine Learning, Supervised Learning, Predictive Analytics
 category: Data Science

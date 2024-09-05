@@ -1,11 +1,19 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: game.png
+date: 2022-08-19
+img: Project4.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: August 2022
+title: Análisis de Establecimientos Educativos en Guatemala
+technologies: Python, Pandas, NumPy, Matplotlib, CSV
+methodology: Extracción, Transformación y Carga (ETL), Análisis Exploratorio de Datos (EDA), Limpieza de Datos, Creación de Libro de Códigos
+category: Data Science
+description: >
+    En este proyecto, el objetivo fue analizar los establecimientos educativos de Guatemala que alcanzaron el nivel de diversificado. Se descargaron 23 conjuntos de datos del sitio web del Ministerio de Educación de Guatemala (MINEDUC), los cuales contenían información sobre diversas instituciones educativas del país. El proceso de análisis incluyó la limpieza exhaustiva de los datos, identificando y corrigiendo inconsistencias como nombres duplicados o mal escritos. 
+   
+    Utilizamos herramientas como **Pandas** para manipular y limpiar los datos, asegurando que fueran consistentes y preparados para futuros análisis. El conjunto final incluyó 7977 observaciones y 15 variables etiquetadas. Adicionalmente, se creó un **Libro de Códigos** que documenta cada variable y sus posibles valores, permitiendo la reproducción y verificación del proceso.
+
+    Este proyecto resalta las competencias clave en la manipulación de datos, incluyendo la transparencia en los procesos de limpieza y la preparación de los datos para análisis exploratorio. La metodología empleada garantiza que los resultados obtenidos sean verificables y reproducibles por cualquier analista de datos.
+github: https://github.com/AndresQuinto5/P1-DS
 ---

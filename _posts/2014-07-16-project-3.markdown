@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2024-05-15
-img: circus.png
+img: Project3.png
 alt: image-alt
 project-date: May 2024
 title: Predicción de Deserción Estudiantil Universitaria utilizando Técnicas de Aprendizaje Automático
