@@ -489,19 +489,3 @@ footer .footer-below {
     width: 250px;  /* Adjust this value as needed */
     height: 250px; /* This should be the same as the width */
 }
-
-.portfolio-modal .modal-content .item-details li {
-  margin-bottom: 15px;
-}
-
-.portfolio-modal .modal-content .item-details li strong {
-  display: block;
-}
-
-.portfolio-modal .modal-content .item-details li a.btn {
-  margin-top: 5px;
-}
-
-.portfolio-modal .modal-content .btn {
-  margin: 5px;
-}

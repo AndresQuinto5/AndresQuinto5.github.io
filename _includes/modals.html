@@ -35,15 +35,14 @@
                 <strong>{{ post.methodology }}</strong>
               </li>
               {% endif %}
-              {% if post.github %}
-              <li>
-                <a href="{{ post.github }}" class="btn btn-default" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-github"></i> View on GitHub
-                </a>
-              </li>
-              {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            {% if post.github %}
+            <a href="{{ post.github }}" class="btn btn-lg btn-outline" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            {% endif %}
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
           </div>
         </div>
       </div>
