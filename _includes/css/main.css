@@ -560,22 +560,49 @@ footer .footer-below {
 #about .about-item i {
     color: #fff;
     margin-bottom: 20px;
+    font-size: 3em; /* Asegura que los iconos sean lo suficientemente grandes */
 }
 
 #about .about-item h4 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    text-align: center; /* Asegura que los títulos estén centrados */
 }
 
 #about .about-item p {
     font-size: 1em;
     line-height: 1.6;
+    text-align: center; /* Centra el texto en dispositivos móviles */
 }
 
 #about .about-cta {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 40px;
+    text-align: center; /* Asegura que el CTA esté centrado */
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media(max-width: 767px) {
+    #about .col-md-4 {
+        margin-bottom: 30px; /* Añade espacio entre las secciones en móviles */
+    }
+
+    #about .about-item {
+        padding: 15px; /* Reduce el padding en móviles para un mejor uso del espacio */
+    }
+
+    #about .about-item i {
+        font-size: 2.5em; /* Reduce ligeramente el tamaño de los iconos en móviles */
+    }
+
+    #about .about-item h4 {
+        font-size: 1.3em; /* Reduce ligeramente el tamaño de los títulos en móviles */
+    }
+
+    #about .about-item p {
+        font-size: 0.9em; /* Reduce ligeramente el tamaño del texto en móviles */
+    }
 }
 
 .mb-3 {
