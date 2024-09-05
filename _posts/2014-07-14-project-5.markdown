@@ -7,19 +7,19 @@ alt: image-alt
 project-date: August 2024
 title: Análisis Avanzado de Ofertas Laborales en Data Science y Tecnología
 technologies: 
-  - Python 3.11
-  - Pandas
-  - Requests
-  - BeautifulSoup
-  - Matplotlib
-  - Seaborn
-  - NLTK
+  - Python 3.11,
+  - Pandas,
+  - Requests,
+  - BeautifulSoup,
+  - Matplotlib,
+  - Seaborn,
+  - NLTK,
 methodology:
-  - Extracción, Transformación y Carga (ETL)
-  - Procesamiento de Lenguaje Natural (NLP)
-  - Análisis Exploratorio de Datos (EDA)
-  - Visualización de Datos Interactiva
-  - Parseo de JSON
+  - Extracción, Transformación y Carga (ETL),
+  - Procesamiento de Lenguaje Natural (NLP),
+  - Análisis Exploratorio de Datos (EDA),
+  - Visualización de Datos Interactiva,
+  - Parseo de JSON,
 category: Data Science
 description: 
   Este proyecto utiliza técnicas avanzadas de ETL para analizar el mercado laboral en ciencia de datos y tecnología en Guatemala, aprovechando la API de LinkedIn para extraer datos en tiempo real y algoritmos de procesamiento de lenguaje natural (NLP) para el análisis de descripciones de trabajos. Además, se parsea el JSON de las ofertas de trabajo y, basado en un análisis de mis habilidades técnicas y estudios (extraídos de mi CV), se calcula un porcentaje de adecuación para cada puesto. Los resultados se almacenan en dos dataframes de Pandas que posteriormente son renderizados en un informe HTML interactivo, con enlaces directos a las ofertas de trabajo correspondientes. La solución genera visualizaciones interactivas mostrando tendencias clave como las habilidades más demandadas y las empresas más activas en la contratación, facilitando la toma de decisiones y la búsqueda de oportunidades.
