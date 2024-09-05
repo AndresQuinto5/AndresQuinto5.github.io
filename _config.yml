@@ -34,7 +34,7 @@ color:
 footer:
   copyright: Andres Quinto
   location: Location
-  social: Around the Web
+  social: Connect with Me
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -46,7 +46,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Guatemala City
-  - line: Guatemala
+  - line: Guatemala, 01010
 
 # Build settings
 markdown: kramdown
