@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 1
+date: 2024-03-20
+img: diabetes.png
+alt: analisis-diabetes
+project-date: Marzo 2024
+title: Modelo de Predicción de Diabetes
+technologies: Python, Pandas, Scikit-learn, Matplotlib, Seaborn, XGBoost
+methodology: Análisis de Datos, Aprendizaje Automático, Análisis Exploratorio de Datos (EDA)
+category: Ciencia de Datos
+description: Desarrollé un modelo de aprendizaje automático para predecir diabetes utilizando la Base de Datos de Diabetes de los Indios Pima. El proyecto incluyó un extenso análisis exploratorio de datos, ingeniería de características y la implementación de varios algoritmos de clasificación, incluyendo Regresión Logística, Random Forest, SVM y XGBoost. El modelo final alcanzó una puntuación ROC AUC de 0.8389, demostrando fuertes capacidades predictivas para el diagnóstico de diabetes. Los resultados más relevantes mostraron que la glucosa en sangre, el índice de masa corporal (IMC) y la edad son los predictores más importantes de diabetes. Se observó un trade-off entre precisión y recall en los modelos más complejos. Las conclusiones sugieren que los esfuerzos de prevención deberían centrarse en el control de los niveles de glucosa y el manejo del peso, y que la implementación clínica debería considerar un enfoque de dos etapas utilizando tanto modelos interpretables como de alto rendimiento.
+github: https://github.com/AndresQuinto5/analisis_diabetes_Kaggle
+
+---
