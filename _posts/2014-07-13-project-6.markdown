@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2024-03-20
-img: diabetes.png
+img: Project6.png
 alt: analisis-diabetes
 project-date: Marzo 2024
 title: Modelo de Predicción de Diabetes
