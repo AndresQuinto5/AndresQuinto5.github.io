@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 6
 date: 2024-09-05
 img: Project6.png
 alt: analisis-diabetes
