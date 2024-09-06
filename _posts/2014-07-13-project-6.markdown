@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 1
-date: 2024-03-20
+date: 2024-09-05
 img: Project6.png
 alt: analisis-diabetes
-project-date: Marzo 2024
+project-date: September 2024
 title: Modelo de Predicción de Diabetes
 technologies: Python, Pandas, Scikit-learn, Matplotlib, Seaborn, XGBoost
 methodology: Análisis de Datos, Aprendizaje Automático, Análisis Exploratorio de Datos (EDA)
